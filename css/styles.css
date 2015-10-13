@@ -1,0 +1,15 @@
+.navigation {
+  
+  /* Collapsed */
+  width: 40px; 
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.page-wrap {
+  width: 100%;
+  float: right;
+}

@@ -1,0 +1,16 @@
+/* placeholder fading */
+aside .chat-entry::-webkit-input-placeholder, aside #add-preset::-webkit-input-placeholder{
+   color: #dfdfdf;
+}
+
+aside .chat-entry:-moz-placeholder, aside #add-preset:-moz-placeholder { /* Firefox 18- */
+   color: #dfdfdf;  
+}
+
+aside .chat-entry::-moz-placeholder, aside #add-preset::-moz-placeholder {  /* Firefox 19+ */
+   color: #dfdfdf;  
+}
+
+aside .chat-entry:-ms-input-placeholder, aside #add-preset:-ms-input-placeholder {  
+   color: #dfdfdf;  
+}
