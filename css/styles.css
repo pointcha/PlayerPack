@@ -1,15 +1,43 @@
-.navigation {
-  
-  /* Collapsed */
-  width: 40px; 
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100%;
+.menu {
+    overflow-x: hidden;
+    position: relative;
+    right: 0;
 }
 
-.page-wrap {
-  width: 100%;
-  float: right;
+.menu-side {
+    width: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: -50px;
+    height: 100%;
+    padding: 0 10px;
+    background-image: linear-gradient( to right, #444, #666 8px);
+}
+
+.menu-side,
+.menu-toggle,
+.menu {
+	-webkit-transition: right 0.2s ease;
+	-moz-transition: right 0.2s ease;
+	transition: right 0.2s ease;
+}
+
+.menu-open {
+    right: 50px;
+}
+
+.menu-open .menu-side {
+right: 0;
+}
+
+.menu-open .menu-toggle {
+right: 50px;
+}
+
+.menu-toggle {
+    width: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
